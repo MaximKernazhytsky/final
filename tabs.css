@@ -1,0 +1,152 @@
+.tab_main {
+  display: flex;
+}
+
+.tab_content {
+  padding-left: 100px;
+  padding-top: 46px;
+  padding-right: 30px;
+
+}
+
+.tab_border {
+  margin-left: 170px;
+  margin-right: 170px;
+  border: 1px solid #C6CBCD;
+  border-top: 0px;
+}
+
+.tab {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-left: 170px;
+  margin-right: 170px;
+  margin-top: 100px;
+
+  color: #333333;
+}
+
+.tab_2 {
+  padding-left: 154.5px;
+  border: 1px solid #C6CBCD;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.tab_3 {
+  padding-left: 146px;
+  padding-right: 100px;
+  border: 1px solid #C6CBCD;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.tab_text_1 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  margin: auto;
+
+  color: #000000;
+}
+
+.tab_text_2 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 72px;
+
+
+  color: #000000;
+}
+
+.tab_button {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin-top: 27px;
+
+  color: #ffffff;
+
+  border: 0px solid;
+  background: #EC7979;
+  width: 270px;
+  height: 58px;
+
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.tab_button:hover{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin-top: 27px;
+
+  color: #ffffff;
+
+  border: 0px solid;
+  background: #AB4949;
+  width: 270px;
+  height: 58px;
+
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.tab_button:active{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin-top: 27px;
+
+  color: #ffffff;
+
+  border: 0px solid;
+  background: #EC7979;
+  width: 270px;
+  height: 58px;
+
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.tab_pic img {
+  width: 520px;
+  height: 600px;
+}
+
+.tab_1 {
+  padding-left: 80px;
+  border: 1px solid #C6CBCD;
+  border-bottom:0px;
+  padding-right: 80px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.tab_pic {
+  display: flex;
+}
+

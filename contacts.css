@@ -1,0 +1,160 @@
+input {
+    border: 0;
+    border-bottom: 1px solid #BDBDBD;
+    width: 571px;
+    padding: 3px;
+}
+
+.contact_fields {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    height: 155px;
+    margin-left: 30px;
+    width: 571px;
+}
+
+label {
+    display: block;
+    margin-bottom: 0px;
+}
+
+.message {
+    margin-left: 30px;
+}
+
+.subtitle_contacts {
+    font-family: 'Raleway';
+    font-style: normal;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 100px;
+
+    color: #000000;
+}
+
+.subtitle_contacts h2 {
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.subtitle_contacts h5 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 90px;
+
+    color: #86878B;
+}
+
+.contact_border {
+    border: 0.5px solid #EC7979;
+    width: 170px;
+    text-align: center;
+    padding: 0;
+    height: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contact_fields p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+}
+
+.login {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+
+    color: #BDBDBD;
+}
+
+.email {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #BDBDBD;
+}
+
+.password {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #BDBDBD;
+}
+
+.send_button {
+    background: #EC7979;
+    height: 58px;
+    width: 370px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.send_button:hover {
+    background: #AB4949;
+
+}
+
+.send_button:active {
+    background: #EC7979;
+
+}
+
+.footer {
+    border: 0px solid black;
+    height: 164px;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #000000;
+    padding-bottom: 27px;
+}
+
+.footer_img {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_img img {
+    margin-left: 52px;
+    margin-top: 40px;
+}
+
+.footer_text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 32px;
+    color: rgba(255, 255, 255, 0.5);
+}
