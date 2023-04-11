@@ -3,6 +3,7 @@ input {
     border-bottom: 1px solid #BDBDBD;
     width: 571px;
     padding: 3px;
+    outline: none;
 }
 
 .contact_fields {
@@ -16,6 +17,7 @@ textarea {
     height: 155px;
     margin-left: 30px;
     width: 571px;
+    outline: none;
 }
 
 label {
@@ -142,7 +144,10 @@ label {
 .footer_img {
     display: flex;
     justify-content: center;
+    height: 100%;
+    max-height: 100px;
 }
+
 
 .footer_img img {
     margin-left: 52px;

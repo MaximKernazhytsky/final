@@ -13,6 +13,7 @@
 
 .reviews_text {
     margin-top: 40px;
+	margin-bottom: 80px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
@@ -32,172 +33,79 @@
 
 .reviews {
     position: relative;
-    padding-top: 83px;
     display: flex;
     justify-content: space-around;
 }
 
-.reviews h5 {
+.container_review_1 h5, .container_review_2 h5, .container_review_3 h5{
+    position: relative;
     border: 0px solid;
-    width: 370px;
-    height: 180px;
-    left: 170px;
-    top: 3820px;
+    max-width: 370px;
+    max-height: 180px;
+	padding-top: 50px;
+	padding-bottom: 50px;
     background: #E2E2E2;
     border-radius: 10px;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
-
-}
-
-.review_1 {
-    font-family: 'Raleway';
+	
+	font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 21px;
     color: #86878B;
+ 
 }
 
-.review_2 {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    color: #86878B;
+.container_review_1 h5:before, .container_review_2 h5:before, .container_review_3 h5:before {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50px;
+    border-style: solid;
+    border-width: 20px 15px 0;
+    border-color: #E2E2E2 transparent transparent transparent;
+    }
+
+.review_1, .review_2, .review_3 {
+	margin-left: 25px;
 }
 
 .review_3 {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    color: #86878B;
-}
-
-.review_1::before {
-    content: '';
-    position: absolute;
-    left: 95px;
-    bottom: 5px;
-    border: 10px solid transparent;
-    border-top: 10px solid #E2E2E2;
-}
-
-.review_2::before {
-    content: '';
-    position: absolute;
-    left: 600px;
-    bottom: 5px;
-    border: 10px solid transparent;
-    border-top: 10px solid #E2E2E2;
+	margin-right: 25px;
 }
 
 
-.review_3::before {
-    content: '';
-    position: absolute;
-    left: 1100px;
-    bottom: 5px;
-    border: 10px solid transparent;
-    border-top: 10px solid #E2E2E2;
-}
-
-.managers {
+.manager__main {
     display: flex;
-    justify-content: space-around;
-    position: relative;
-    text-align: start;
+    align-items: center;
 }
 
-.manager_pic_1 {
-    position: absolute;
-    left: 40px;
-    top: 15px;
-}
-
-.manager_pic_2 {
-    position: absolute;
-    left: 550px;
-    top: 15px;
-}
-
-.manager_pic_3 {
-    position: absolute;
-    left: 1050px;
-    top: 15px;
-}
-
-.manager__1 {
-    position: absolute;
-    left: 150px;
+.manager_info {
     font-family: 'Open Sans';
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
     text-transform: capitalize;
+
     color: #000000;
+	
+	margin-left: 25px;
 }
 
-.manager__1 h5 {
+.manager_info h5 {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    display: flex;
-    align-items: center;
-}
-
-.manager__2 {
-    position: absolute;
-    left: 670px;
-    font-family: 'Open Sans';
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
-    text-transform: capitalize;
-    color: #000000;
-}
-
-.manager__2 h5 {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-}
-
-.manager__3 {
-    position: absolute;
-    left: 1160px;
-    font-family: 'Open Sans';
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
-    text-transform: capitalize;
-    color: #000000;
-}
-
-.manager__3 h5 {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
 }
 
 .conteiner__2 {
-    background-image: url(./assets/bg.png);
-    margin-top: 300px;
+    background-image: url('/img/bg.png');
+    margin-top: 65px;
 }
 
 .text__footer {
@@ -259,7 +167,7 @@
     text-transform: capitalize;
 }
 
-.button:hover{
+.button:hover {
     margin-top: 50px;
     border: 2px solid #EC7979;
     width: 370px;
@@ -276,7 +184,7 @@
     color: #EC7979;
 }
 
-.button:active{
+.button:active {
     margin-top: 50px;
     border: 2px solid #AB4949;
     background: #AB4949;

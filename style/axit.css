@@ -53,9 +53,12 @@ header {
 }
 
 .main {
-    background-image: url(./assets/main_background.png);
+    background-image: url('/img/main_background.png');
 }
 
+.main_info{
+    padding-right: 50px;
+}
 .main_bg {
     background-color: rgba(0, 0, 0, 0.5);
     padding-top: 280px;
@@ -157,12 +160,12 @@ header {
 }
 
 .form {
-    border: 0 solid #FFFFFF;;
-    width: 590px;
-    height: 450px;
+    border: 0 solid #FFFFFF;
     border-radius: 10px;
     background: #FFFFFF;
-    margin-left: 50px;
+    width: 90%;
+    max-width: 470px;
+    max-height: 450px;
 }
 
 .form_title {
