@@ -11,6 +11,8 @@ header {
     padding-left: 116px;
 }
 
+
+
 .nav_item a {
     text-decoration: none;
     font-family: 'Open Sans';
@@ -56,9 +58,10 @@ header {
     background-image: url('/img/main_background.png');
 }
 
-.main_info{
+.main_info {
     padding-right: 50px;
 }
+
 .main_bg {
     background-color: rgba(0, 0, 0, 0.5);
     padding-top: 280px;
@@ -166,6 +169,7 @@ header {
     width: 90%;
     max-width: 470px;
     max-height: 450px;
+    min-width: 398px;
 }
 
 .form_title {
@@ -204,7 +208,7 @@ header {
     margin: auto;
     width: 300px;
     padding-bottom: 33px;
-    
+
 }
 
 .form_button {
@@ -231,4 +235,31 @@ header {
 .form_button:active {
     background: #EC7979;
     border-radius: 0px 0px 10px 10px;
+}
+
+
+@media (max-width: 1024px) {
+
+    .main_info {
+        margin-left: 115px;
+        min-width: 454px;
+    }
+
+    .main_text {
+        max-width: 183px;
+    }
+
+    .form {
+        min-width: 398px;
+        margin-right: 20px;
+    }
+
+    .navigation {
+        margin-left: 235px;
+        margin-right: 20px;
+    }
+
+    .logo__1 {
+        display: flex;
+    }
 }
