@@ -9,20 +9,19 @@
     margin-top: 100px;
     border: 0px solid;
     color: #ffffff;
-    text-transform: capitalize;
 }
 
 .block__1 h5 {
     border: 0px solid;
     height: 50px;
-    width: 370px;
+    max-width: 370px;
     margin: 1px auto;
     background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Raleway';
-    font-weight: 400;
+    font-weight: normal;
     color: #86878B;
     font-size: 18px;
     text-transform: capitalize;
@@ -30,49 +29,46 @@
 
 .basic {
     border: 1px solid;
-    height: 60px;
-    width: 370px;
+    min-height: 60px;
+    max-width: 370px;
     background-color: #333333;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Open Sans';
-    font-weight: 700;
+    font-family: 'OpenSansBold';
     font-size: 24px;
 }
 
 .price__1 {
     border: 1px solid;
-    height: 100px;
-    width: 370px;
+    min-height: 100px;
+    max-width: 370px;
     background-color: #333333;
     margin: 1px auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Raleway';
-    font-weight: 700;
+    font-family: 'RalewayBold';
     font-size: 36px;
 }
 
 .ffl__1 {
     border: 1px solid;
-    height: 60px;
-    width: 370px;
+    min-height: 60px;
+    min-width: 370px;
     background-color: #333333;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;   
-    color: rgba(255, 255, 255, 0.5); 
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
 }
 
-.header__1{
+.header__1 {
     background-color: #ffffff;
 }
 
@@ -81,21 +77,21 @@
     font-size: 18px;
 }
 
-.shadow{
+.shadow {
     box-shadow: 1px 1px 20px rgb(176, 176, 176);
 }
 
 .block__2 h5 {
     border: 0px solid;
-    height: 50px;
-    width: 370px;
+    min-height: 50px;
+    max-width: 370px;
     margin: 1px auto;
     background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Raleway';
-    font-weight: 400;
+    font-weight: normal;
     color: #86878B;
     font-size: 18px;
     text-transform: capitalize;
@@ -103,74 +99,68 @@
 
 .optima {
     border: 1px solid;
-    height: 60px;
-    width: 370px;
+    min-height: 60px;
+    max-width: 370px;
     background-color: #333333;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
+    font-family: 'OpenSansBold';
     font-size: 24px;
 }
 
 .price__2 {
     border: 1px solid;
-    height: 100px;
-    width: 370px;
+    min-height: 100px;
+    max-width: 370px;
     background-color: #333333;
     margin: 1px auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    
+    font-family: 'RalewayBold';
+    font-size: 36px;
 }
 
 .ffl__2 {
     border: 1px solid;
-    height: 60px;
-    width: 370px;
+    min-height: 60px;
+    min-width: 370px;
     background-color: #333333;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
     font-size: 18px;
     color: rgba(255, 255, 255, 0.5);
 }
 
-.header__2{
+.header__2 {
     background-color: #ffffff;
 }
 
 .block__3 {
     margin-top: 100px;
     font-family: 'Raleway';
-    font-style: no;
+    font-weight: normal;
     color: #ffffff;
     font-size: 18px;
-    text-transform: capitalize;
 }
 
 .block__3 h5 {
     border: 0px solid;
-    height: 50px;
-    width: 370px;
+    min-height: 50px;
+    max-width: 370px;
     margin: 1px auto;
     background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Raleway';
-    font-weight: 400;
+    font-weight: normal;
     color: #86878B;
     font-size: 18px;
     text-transform: capitalize;
@@ -178,86 +168,208 @@
 
 .pro {
     border: 1px solid;
-    height: 60px;
-    width: 370px;
+    min-height: 60px;
+    max-width: 370px;
     background-color: #333333;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
+    font-family: 'OpenSansBold';
     font-size: 24px;
 }
 
 .price__3 {
     border: 1px solid;
-    height: 100px;
-    width: 370px;
+    min-height: 100px;
+    max-width: 370px;
     background-color: #333333;
     margin: 1px auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Raleway';
-    font-weight: 700;
+    font-family: 'RalewayBold';
     font-size: 36px;
 }
 
 .ffl__3 {
     border: 1px solid;
-    height: 60px;
-    width: 370px;
+    min-height: 60px;
+    min-width: 370px;
     background-color: #333333;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
     font-size: 18px;
     color: rgba(255, 255, 255, 0.5);
 }
 
-.header__3{
+.header__3 {
     background-color: #ffffff;
 }
 
-.section_price{
+.section_price {
     background-color: #eaeaea;
     padding-top: 100px;
     padding-bottom: 50px;
 }
 
-.price_border{
+.price_border {
     border: 1px solid #EC7979;
-	width: 170px;
-	text-align: center;
+    max-width: 170px;
+    text-align: center;
     padding: 0;
-	height: 0px;
+    max-height: 0px;
 }
 
-.subsection_price{
+.subsection_price {
     text-align: center;
     align-items: center;
     margin-bottom: 59px;
 }
 
-.subtitle_price{
+.subtitle_price {
     font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
     font-size: 36px;
     line-height: 42px;
 }
 
-.text_price{
+.text_price {
     font-family: 'Raleway';
-    font-weight: 400;
+    font-weight: normal;
     font-size: 18px;
     line-height: 21px;
     margin-top: 40px;
+    color: #86878B;
 }
 
+@media (max-width: 1024px) {
+    .blocks {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+    .block__1 {
+        margin-top: 50px;
+        margin-left: 14px;
+        margin-right: 20px;
+        max-width: 317px;
+    }
+
+    .block__3 {
+        margin-top: 50px;
+        margin-right: 14px;
+        margin-left: 20px;
+        max-width: 317px;
+    }
+
+    .optima,
+    .price__2,
+    .header__2 {
+        max-width: 317px;
+    }
+
+    .ffl__2,
+    .ffl__1,
+    .ffl__3 {
+        min-width: 315px;
+    }
+
+    .section_price {
+        min-width: fit-content;
+    }
+
+    .subsection_price {
+        margin-bottom: 32px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .section_price {
+        padding-top: 50px;
+        min-width: 320px;
+        padding-bottom: 26px;
+    }
+
+    .subsection_price {
+        margin-bottom: 24px;
+    }
+
+    .subtitle_price {
+        font-size: 24px;
+        line-height: 28px;
+        margin: 0px;
+        margin-bottom: 40px;
+    }
+
+    .price_border {
+        max-width: 134px;
+    }
+
+    .section_blocks {
+        min-width: 320px;
+    }
+
+    .blocks {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .text_price {
+        font-size: 14px;
+        margin-top: 24px;
+    }
+
+    .block__1 {
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        max-width: 288px;
+    }
+
+    .basic,
+    .optima,
+    .pro {
+        min-height: 50px;
+        max-width: 288px;
+        font-size: 18px;
+    }
+
+    .price__1,
+    .price__2,
+    .price__3 {
+        min-height: 80px;
+        max-width: 288px;
+        font-size: 24px;
+    }
+
+    .ffl__2,
+    .ffl__1,
+    .ffl__3 {
+        min-width: 286px;
+        font-size: 14px;
+        min-height: 40px;
+    }
+
+    .block__1 h5, .block__2 h5, .block__3 h5 {
+        max-height: 40px;
+        max-width: 288px;
+        font-size: 14px;
+    }
+
+    .block__2, .block__3 {
+        margin-top: 27px;
+    }
+
+    .shadow {
+        box-shadow: none;
+    }
+}

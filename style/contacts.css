@@ -1,7 +1,8 @@
-input {
+.contact_fields input {
     border: 0;
     border-bottom: 1px solid #BDBDBD;
-    width: 571px;
+    max-width: 560px;
+    width: 100%;
     padding: 3px;
     outline: none;
 }
@@ -11,12 +12,18 @@ input {
     justify-content: center;
 }
 
-textarea {
+.contact_info{
+    max-width: 560px;
+    width: 100%;
+    margin-left: 5px;
+}
+
+.contact_fields textarea {
     border: none;
     border-bottom: 1px solid #BDBDBD;
-    height: 155px;
-    margin-left: 30px;
-    width: 571px;
+    min-height: 155px;
+    max-width: 560px;
+    width: 95%;
     outline: none;
 }
 
@@ -25,30 +32,31 @@ label {
     margin-bottom: 0px;
 }
 
-.message {
+.contact_message{
+    max-width: 560px;
+    width: 100%;
     margin-left: 30px;
 }
 
 .subtitle_contacts {
     font-family: 'Raleway';
-    font-style: normal;
+    font-weight: normal;
     align-items: center;
     text-align: center;
-    text-transform: uppercase;
     margin-top: 100px;
 
     color: #000000;
 }
 
 .subtitle_contacts h2 {
-    font-weight: 400;
+    font-family: 'Raleway';
+    font-weight: normal;
     font-size: 36px;
 }
 
 .subtitle_contacts h5 {
     font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
     font-size: 18px;
     line-height: 21px;
     margin-bottom: 90px;
@@ -58,7 +66,7 @@ label {
 
 .contact_border {
     border: 0.5px solid #EC7979;
-    width: 170px;
+    max-width: 170px;
     text-align: center;
     padding: 0;
     height: 0px;
@@ -68,8 +76,6 @@ label {
 
 .contact_fields p {
     font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 19px;
     color: #BDBDBD;
@@ -77,8 +83,6 @@ label {
 
 .login {
     font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 19px;
 
@@ -88,8 +92,6 @@ label {
 
 .email {
     font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 19px;
 
@@ -98,8 +100,6 @@ label {
 
 .password {
     font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 19px;
 
@@ -108,11 +108,9 @@ label {
 
 .send_button {
     background: #EC7979;
-    height: 58px;
-    width: 370px;
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
+    min-height: 58px;
+    max-width: 370px;
+    font-family: 'OpenSansSemiBold';
     font-size: 15px;
     display: flex;
     align-items: center;
@@ -134,7 +132,7 @@ label {
 
 .footer {
     border: 0px solid black;
-    height: 164px;
+    min-height: 164px;
     width: 100%;
     margin-top: 50px;
     background-color: #000000;
@@ -144,22 +142,129 @@ label {
 .footer_img {
     display: flex;
     justify-content: center;
-    height: 100%;
-    max-height: 100px;
 }
 
 
 .footer_img img {
     margin-left: 52px;
     margin-top: 40px;
+    max-height: 44px;
 }
 
 .footer_text {
     font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
     font-size: 18px;
     text-align: center;
     margin-top: 32px;
     color: rgba(255, 255, 255, 0.5);
+}
+
+
+@media (max-width :1024px) {
+
+    .contact__end {
+        min-width: 1024px;
+    }
+
+    .contact__end textarea {
+        max-width: 480px;
+    }
+
+    .contact__end input {
+        max-width: 480px;
+    }
+
+    .contact__end .contact_info{
+        max-width: 480px;
+    }
+
+    .contact__end .contact_message{
+        max-width: 480px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .contact__end {
+        min-width: 320px;
+    }
+
+	.subtitle_contacts {
+		margin-top: 50px;
+	}
+
+	.subtitle_contacts h2 {
+		font-size: 24px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+	.contact_border {
+		max-width: 134px;
+		margin-top: 50px;
+		margin-bottom: 24px;
+	}
+
+    .subtitle_contacts h5 {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 64px;
+    }
+
+    .section_contacts {
+        min-width: 320px;
+    }
+
+    .contact_fields{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact__end .contact_info{
+        max-width: 288px;
+        margin-left: 0px;
+    }
+
+    p {
+        margin-bottom: 50px;
+        margin-top: 0px;
+    }
+
+    .contact__end .contact_message {
+        max-width: 288px;
+        margin-left: 0px;
+    }
+
+    .contact__end textarea {
+        max-width: 288px;
+        width: 100%;
+    }
+
+    .send_button {
+        min-height: 50px;
+        max-width: 288px;
+        font-size: 18px;
+        margin-top: 0px;
+    }
+
+    .footer {
+        margin-top: 40px;
+        padding-bottom: 45px;
+        padding-top: 40px;
+        min-height: 0px;
+    }
+    
+    .footer_img img {
+		margin-right: 22px;
+		max-height: 21px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    .footer_text {
+        font-size: 14px;
+        margin-top: 44px;
+        margin-bottom: 0px;
+    }
 }

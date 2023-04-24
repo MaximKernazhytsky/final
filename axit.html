@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Axit</title>
+    <link href="./style/fonts.css" rel="stylesheet" type="text/css">
     <link href="./style//axit.css" rel="stylesheet">
     <link href="./style//social_media.css" rel="stylesheet">
     <link href="./style//tabs.css" rel="stylesheet">
     <link href="./style//pricing.css" rel="stylesheet">
     <link href="./style//reviews.css" rel="stylesheet">
     <link href="./style//contacts.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./icon/favicon.png">
 </head>
 
 <body>
@@ -21,6 +21,9 @@
         <div class="logo__1">
             <img src="./logo/AXIT.png">
             <img src="./logo/AXIT-1.png">
+        </div>
+        <div class="burger">
+            <span></span>
         </div>
         <nav class="navigation">
             <div class="nav_item"><a href="#features">Features</a></div>
@@ -30,7 +33,7 @@
             <div class="nav_item"><a href="#contact">Contact</a></div>
         </nav>
     </header>
-    <section>
+    <section class="section_main">
         <div class="main">
             <div class="main_bg">
                 <div class="main_info">
@@ -70,8 +73,7 @@
                 <div class="social_info">
                     <h4 class="title_social">Social media</h4>
                     <h5 class="text_social">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
-                        bibendum
-                        laoreet.</h5>
+                        bibendum laoreet.</h5>
                 </div>
                 <div class="social_images">
                     <img src="./icon/facebook.png">
@@ -80,7 +82,7 @@
                     <img src="./icon/pinterest.png">
                     <img src="./icon/instargram.png">
                     <img src="./icon/git.png">
-                    <img src="./icon/wifi.png">
+                    <img id="wifi" src="./icon/wifi.png">
                 </div>
             </div>
         </div>
@@ -88,13 +90,13 @@
 
 
     <div class="tab_conteiner">
-        <div>
+        <div class="tab_conteiner2">
             <nav>
                 <div class="tab">
                     <span class="tab_1">TAB 1</span><span class="tab_2">TAB 2</span><span class="tab_3">TAB 3</span>
                 </div>
             </nav>
-            <section>
+            <section class="section_tabs">
                 <div class="tab_main tab_border">
                     <div class="tab_content">
                         <h3 class="tab_text_1">Tabs with soft transitioning effect.</h3>
@@ -120,12 +122,12 @@
     </div>
 
     <div id="about">
-        <nav>
+        <nav class="box_text">
             <h2 class="subtitle">WHY THIS IS AWESOME</h2>
             <hr class="subtitle_border">
             <h5 class="subtitle_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
         </nav>
-        <section>
+        <section class="section_about">
             <div class="box">
                 <div class="box_1">
                     <div class="icon"><img src="./icon/lamp.png"></div>
@@ -152,7 +154,7 @@
         </section>
     </div>
 
-    <div id="pricing">
+    <div>
         <div class="section_price">
             <nav>
                 <div class="subsection_price">
@@ -161,7 +163,7 @@
                     <h5 class="text_price"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. </h5>
                 </div>
             </nav>
-            <section>
+            <section class="section_blocks">
                 <div class="blocks">
                     <div class="block__1">
                         <div class="header__1">
@@ -211,67 +213,67 @@
 
     <div id="reviews">
         <nav>
-            <div>
+            <div class="title_review">
                 <h2 class="subtitle_reviews">WHAT OUR CUSTOMERS ARE SAYING</h2>
                 <hr class="reviews_border">
                 <h5 class="reviews_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </h5>
             </div>
         </nav>
-        <section>
+        <section class="section_reviews">
             <div class="reviews">
                 <div class="review_1">
-					<div class="container_review_1">
-						<h5>Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit.Voluptas
-                        dicta placeat molestiae, deleniti non aliquid
-                        dolor laborum sit nobis ab fugiat saepe totam.</h5>
-					</div>
-						
-					<div class="manager__main">
-						<div class="manager_pic_1">
-							<img src="./icon/Davis.png">
-						</div>
-						<div class="manager_info">
-							<h4>Davis Rhiel Madsen</h4>
-							<h5>Manager</h5>
-						</div>
-					</div>
+                    <div class="container_review_1">
+                        <h5>Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit.Voluptas
+                            dicta placeat molestiae, deleniti non aliquid
+                            dolor laborum sit nobis ab fugiat saepe totam.</h5>
+                    </div>
+
+                    <div class="manager__main">
+                        <div class="manager_pic_1">
+                            <img src="./icon/Davis.png">
+                        </div>
+                        <div class="manager_info">
+                            <h4>Davis Rhiel Madsen</h4>
+                            <h5>Manager</h5>
+                        </div>
+                    </div>
                 </div>
                 <div class="review_2">
                     <div class="container_review_2">
-						<h5>Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit.Voluptas
-                        dicta placeat molestiae, deleniti non aliquid
-                        dolor laborum sit nobis ab fugiat saepe totam.</h5>
-					</div>
-						
-					<div class="manager__main">
-						<div class="manager_pic_2">
-							<img src="./icon/Jaydon.png">
-						</div>
-						<div class="manager_info">
-							<h4>Jaydon Rosser</h4>
-							<h5>Manager</h5>
-						</div>
-					</div>
+                        <h5>Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit.Voluptas
+                            dicta placeat molestiae, deleniti non aliquid
+                            dolor laborum sit nobis ab fugiat saepe totam.</h5>
+                    </div>
+
+                    <div class="manager__main">
+                        <div class="manager_pic_2">
+                            <img src="./icon/Jaydon.png">
+                        </div>
+                        <div class="manager_info">
+                            <h4>Jaydon Rosser</h4>
+                            <h5>Manager</h5>
+                        </div>
+                    </div>
                 </div>
                 <div class="review_3">
                     <div class="container_review_3">
-						<h5>Lorem ipsum dolor sit amet
-                        consectetur adipisicing elit.Voluptas
-                        dicta placeat molestiae, deleniti non aliquid
-                        dolor laborum sit nobis ab fugiat saepe totam.</h5>
-					</div>
-						
-					<div class="manager__main">
-						<div class="manager_pic_3">
-							<img src="./icon/Cooper.png">
-						</div>
-						<div class="manager_info">
-							<h4>Cooper Dorwart</h4>
-							<h5>Manager</h5>
-						</div>
-					</div>
+                        <h5>Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit.Voluptas
+                            dicta placeat molestiae, deleniti non aliquid
+                            dolor laborum sit nobis ab fugiat saepe totam.</h5>
+                    </div>
+
+                    <div class="manager__main">
+                        <div class="manager_pic_3">
+                            <img src="./icon/Cooper.png">
+                        </div>
+                        <div class="manager_info">
+                            <h4>Cooper Dorwart</h4>
+                            <h5>Manager</h5>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -286,7 +288,7 @@
         </div>
     </div>
 
-    <div id="contact">
+    <div class="contact__end">
         <nav>
             <div class="subtitle_contacts">
                 <h2>CONTACT US</h2>
@@ -294,9 +296,9 @@
                 <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
             </div>
         </nav>
-        <section>
+        <section class="section_contacts">
             <div class="contact_fields">
-                <div>
+                <div class="contact_info">
                     <label for="login" class="login">Name</label>
                     <p>
                         <input name="login" type="text" />
@@ -310,7 +312,7 @@
                         <input name="password" type="text" />
                     </p>
                 </div>
-                <div>
+                <div class="contact_message">
                     <p>
                         <label for="Message" class="message"> Message </label>
                         <textarea></textarea>
@@ -328,7 +330,7 @@
                     <img src="./icon/pinterest.png" alt="">
                     <img src="./icon/instargram.png" alt="">
                     <img src="./icon/git.png" alt="">
-                    <img src="./icon/wifi.png" alt="">
+                    <img id="wifi" src="./icon/wifi.png" alt="">
                 </div>
                 <h5 class="footer_text">© 2015 Axure Themes</h5>
             </div>
